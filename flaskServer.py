@@ -40,11 +40,5 @@ def api():
             return error
 
 
-#!!!alternate way: less if elif 
-#!!!let flask call the right function with the methods param in decorators
-#@app.route('/', methods=['GET'])
-#def hello2():
-#    return 'hello'
-
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5050)
