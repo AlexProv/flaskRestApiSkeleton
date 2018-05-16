@@ -8,7 +8,7 @@ data = {'alex':'provencher'}
 #######################
 #skeleton for rest API 
 #######################
-error = 'invalid key something went worng',500
+error = 'invalid key something went worng',400
 
 
 @app.route('/', methods=['GET'])
